@@ -1,0 +1,8 @@
+{
+  "name": "ie-pacman",
+  "version": "1.0.0",
+  "description": "Pacman cli game created for a coding test",
+  "main": "index.js",
+  "author": "Ping Nge",
+  "license": "MIT"
+}
