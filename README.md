@@ -12,4 +12,4 @@
 
 - [ ] Create Pacman Class
 - [ ] Pacman commands
-- [ ] Write unit test for input validation.
+- [ ] Write unit tests for Pacman commands
