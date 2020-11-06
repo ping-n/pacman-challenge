@@ -48,7 +48,7 @@ function main() {
       case "REPORT":
         let result = p.report();
         if (result) {
-          console.log(result);
+          console.log(`OUTPUT: ${result}`);
         }
         break;
       default:
@@ -62,3 +62,5 @@ function main() {
 }
 
 main();
+
+module.exports = main;

@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Ping Nge",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "jest": "^26.6.3"
   }
