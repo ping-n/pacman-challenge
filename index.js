@@ -37,16 +37,16 @@ function start() {
         }
         break;
       case "MOVE":
-        p.move();
+        p.move(p.isPlaced());
         break;
       case "LEFT":
-        p.rotateLeft();
+        p.rotateLeft(p.isPlaced());
         break;
       case "RIGHT":
-        p.rotateRight();
+        p.rotateRight(p.isPlaced());
         break;
       case "REPORT":
-        let result = p.report();
+        let result = p.report(p.isPlaced());
         if (result) {
           console.log(`OUTPUT: ${result}`);
         }
@@ -63,4 +63,4 @@ function start() {
 
 start();
 
-module.exports = main;
+module.exports = start;
