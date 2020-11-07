@@ -4,6 +4,9 @@ This application is designed to allow users to be able to move pacman on a 5 x 5
 
 ## Installation
 
+- Please ensure Node.js is installed on your computer.
+  - You can install [Node](https://nodejs.org/en/) here.
+
 - Open `terminal`
 - `cd` to the directory
 - Run `yarn install`
