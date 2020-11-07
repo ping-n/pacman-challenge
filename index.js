@@ -20,7 +20,7 @@ const rl = readline.createInterface({
 // Ask user for next command which can be Place, Move, Left, Right and Report.
 // Should print current coordinate after each command.
 
-function main() {
+function start() {
   let p = new Pacman();
 
   rl.setPrompt("Enter your command: ");
@@ -61,6 +61,6 @@ function main() {
   });
 }
 
-main();
+start();
 
 module.exports = main;
